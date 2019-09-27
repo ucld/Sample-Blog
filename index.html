@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!--Page uses CSS/HTML-->
+		<title>Sample Blog</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<style>
+			body, ul, li {
+				margin: 0;
+				padding: 0;
+			}
+			div {
+				float: left
+			} 
+			* {
+				color: #000;
+				font-weight: 100;
+				list-style: none;
+				text-align: justify;
+				text-decoration: none;
+				list-style-type: none;
+				text-justify: inter-word;
+				font-family: Times, serif;
+			}
+			img {
+				border: solid white 5px; float: right;
+			}
+			#book>:last-child,#book>div:target{display:block}
+			#book>div,#book>div:target~div:last-child{display:none}
+		</style>
+	</head>
+	<body>
+		<div style="width: 20%">
+			<h2>&nbsp;</h2>
+			<ul style="margin-left: 15%">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#shop">Shop</a></li>
+			</ul>
+		</div>
+		<div style="width: 60%" id="book">
+			<div id="shop">
+				<h2>Shop</h2>
+				A sample may be for sale.
+			</div>
+			<div id="about">
+				<h2>About</h2>
+				This is about a sample.
+			</div>
+			<div id="home">
+				<h2>Home</h2>
+				<h3>This is a sample post</h3>
+				This is a sample text.
+				<p><hr><p>
+				<h3>This is a sample blog</h3>
+				text text text text text text... 
+				<a href="#post">(read more)</a>
+				<p><hr><p>
+			</div>
+			<div id="post">
+				<h3>This is a sample blog</h3>
+				<img src="animal.png" alt="human" width="160">
+				text text text text text text text text
+				text text text text text text text text
+				text text text text text text text text
+				text text text text text text text text
+				text text text text text text text text
+				text text text text text text text text
+				text text text text text text text text
+				text text text text text text text text
+				text text text text text text text text.
+			</div>
+		</div>
+	</body>
+</html>
